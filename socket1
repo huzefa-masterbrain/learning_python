@@ -1,0 +1,34 @@
+About characters and strings....
+SCII-american standard code for informations interchange
+https://en.wikipedia.org/wiki/ASCII
+http://www.catonmat.net/download/ascii-cheat-sheet.png
+
+Representing Simle Strings
+*Each character is represented by a number between 0 and 256 stored in 8 bits of memory
+*We refer to "8 bits of memory as a "byte" of memory-(ie.my disk drive contains 3 tere bytes
+(3 Te of memory)
+the ord() function tells us the numeric value of ,simple ASCII character
+
+print(ord('H'))
+72
+print(ord('e'))
+101
+print(ord('\n'))
+10
+
+multi-byte characters
+* TO represent the wide range of characters computers must handle we represent characters with more than one byte
+UTF-16-Fixed length-Two bytes
+UTF-32-Fixed length-Four bytes
+UFT-8-1-4 bytes
+  *Upwards compatible with ASCII
+  *Automatic detection between ASCII and UTF-8
+
+ UTF-8 is recommended practice for encoding data to be exchange between systems
+ Python string to bytes
+
+ When we talk to an external resource like a network socket we sends Bytes,so we need to encode
+ Python 3 string into a given character encoding when we read data from external resource,
+ we must decode it based on the character set so itbis properly represented in pyhon 3 as astring
+
+  

@@ -1,0 +1,37 @@
+http the dominant application layer protocol on the internet inverted for the wed to retrieve HTML ,image,
+document ,etc.
+Extended to be data in addition to document -rss,web service,etc ....basic concept make a connection -request a document
+retrieve the document close the connection
+ http://www.dr-chuck.com/pagel.htm
+ protocol host document
+
+ getting data from the server
+ Each the user clicks on an anchor tag with a href=value to switch to a new page,the browser makes a connection to the
+ web server and issues a "GET" request to GET the content of the page at the specified URL
+ the server return the HTML document to the browser which formats and displays the document to the user.
+
+ internet standards
+ the standard for all of the internet protocols (inner working) are developed by an organization internet Engineering
+ Task Force (IETF)
+ www.ietf.org
+ standards are called "RFCS" -"Request for comments"
+ telnet www.dr-chuck.com 80
+ trying 74.208.28.177...
+ connected to www.dr-chuck.com.Escape Character is '^]
+ GET http://www.dr-chuck.com /page1.html http/10
+ Http/1.1 200 ok
+ Date:thu,08 jan 2015 01:57:52 amt
+
+ <h1>the first page</h1>
+ <p>If you like ,you can switch to the <a href="http://www.dr-chuck.com/page2.htm".
+ second page </a>.</p>
+ connection closed by foreign host.
+ Accurate Hacking in the Movies
+ * matrix reloaded
+ * Bourne ultimatum
+ * Die hard 4
+ * ....
+ http://nmap.org/Movies.html
+ lets write a web Browser!
+ in HTTP request in python
+

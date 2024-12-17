@@ -1,0 +1,43 @@
+what is a collection?
+A collection is nice because we can put more than one value in it and carry them all around in one convenient package
+we have a bunch of value in a single "variable"
+we do this by having more than one place "in" the variable
+we have ways of finding the different place in the variable
+most of our variables have one value in them when we put a new value in the variable -the old value is overwritten
+
+x=2
+x=4
+print(x)
+
+a story of two collection....
+ * list
+ *A linear collection of variable that stay in order
+
+ *Dictionary
+ *A "bag" of values , each with its own label
+
+ Dictionaries
+ *dictionaries are python's most powerful data collection
+ *Dictionaries allow us to do fast database - like operation in python
+ *Dictionaries have different names in different language
+ *Associative arrays-Perl/php
+ *Properties or map or hashmap - java
+ *property Bag-c#.net
+
+ Dictionaries
+ *list index their entries based on the position in the list
+ *Dictionaries are like bags - no order
+ *so we index the things we put in the dictionary with a "lookup tag"
+
+ purse = dict()
+ purse = ['money'] = 12
+ purse = ['candy'] = 3
+ purse = ['tissues'] = 75
+ print(purse)
+
+ {'money':12 , 'tissues':75 , 'candy':3}
+ print (purse['candy'])
+
+ purse['candy']=purse['candy'] + 2
+ print(purse)
+ {'money':12 , 'tissues':75 , 'candy':5}
